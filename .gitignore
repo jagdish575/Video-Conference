@@ -1,4 +1,28 @@
-videoconference_app/__pycache__/*
-videoconference_app/migrations/*
-videoconferencing/__pycache__/*
+# Ignore virtual environment directory
+venv/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore Django database files
 *.sqlite3
+
+# Ignore media files
+media/
+
+# Ignore Django migrations
+**/migrations/
+
+# Ignore compiled files
+**/__pycache__/
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore environment variable files
+.env
+
+# Other specific ignores
+db.sqlite3
